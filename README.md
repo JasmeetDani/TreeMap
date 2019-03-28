@@ -7,7 +7,7 @@ Max number of columns that can be specified is Column Count - 1.
 
 "Occupanncy" column is hardcoded as the column to be used for size and color.
 
-Other number columns can be used instead.
+Any other numeric columns can be used instead.
 
 
 
