@@ -75,12 +75,21 @@ public class TreeMapModel
 
         List<DataType> listCols = cols.ToList();
 
-        listCols.Add(new DataType { Name = defaultColumnForSize, RealType = typeof(float) });
+        listCols.Add(new DataType
+                        {
+                            MappedName = defaultColumnForSize,
+
+                            Name = dataMembers.Single((c) => c.MappedName.Equals(defaultColumnForSize)).Name,
+
+                            RealType = typeof(float)
+                        });
 
 
         // Create the TreeMap
 
-        ConstructTreeMap<T>(sourceData, listCols.ToArray(), defaultColumnForColor);
+        string columnForColor = dataMembers.Single((c) => c.MappedName.Equals(defaultColumnForColor)).Name;
+
+        ConstructTreeMap<T>(sourceData, listCols.ToArray(), columnForColor);
 
 
         // Initialize color lookup

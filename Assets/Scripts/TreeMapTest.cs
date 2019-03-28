@@ -32,6 +32,8 @@ public class TreeMapTest : MonoBehaviour
 
                 if (cols.Count == columnsToSortBy.Length)
                 {
+                    // As 3rd and 4th parameters supply column names of any numeric columns from the table
+
                     treeMapController.Init<Data>(context, columnsToSortBy, "Occupancy", "Occupancy");
                 }
                 else
