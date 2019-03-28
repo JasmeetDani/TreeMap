@@ -1,0 +1,2 @@
+-r:System.Data.Linq.dll
+-r:Mono.Data.Sqlite.dll
