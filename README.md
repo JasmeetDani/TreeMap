@@ -1,5 +1,5 @@
 # TreeMap
-The project is an experimental version to demonstrate Squarified TreeMaps as a method for displaying hierarchical data using nested rectangles.
+The project demonstrates the Squarified TreeMaps generation algorithm for displaying hierarchical data using nested rectangles.
 
 The TreeMap is generated according to columns specified in the TreeMapTest script.
 
