@@ -10,6 +10,7 @@ Max number of columns that can be specified is Column Count - 1.
 Other number columns can be used instead.
 
 
+
 Hovering the mouse over the TreeMap gives details of the corresponding records in the database.
 
 Left Click to Zoom In / Right Click to Zoom Out of the TreeMap.
