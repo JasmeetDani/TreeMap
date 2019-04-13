@@ -5,7 +5,7 @@ The TreeMap is generated according to columns specified in the TreeMapTest scrip
 
 Max number of columns that can be specified is Column Count - 1.
 
-"Occupanncy" column is hardcoded as the column to be used for size and color.
+"Occupancy" column is hardcoded as the column to be used for size and color.
 
 Any other numeric columns can be used instead.
 
